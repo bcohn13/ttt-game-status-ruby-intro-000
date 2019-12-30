@@ -77,7 +77,7 @@ def over?(board)
 end
 def winner(board)
   if won?(board)
-    
+
     returned_win=won?(board)
     won?(board).each do |position|
       if position=="X"
