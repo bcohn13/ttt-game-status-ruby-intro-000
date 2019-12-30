@@ -80,7 +80,7 @@ def winner(board)
 
     returned_win=won?(board)
     won?(board).each do |position|
-      if position=="X"
+      if board[position]=="X"
         return "X"
       else
         return "O"
